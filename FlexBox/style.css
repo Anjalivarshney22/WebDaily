@@ -1,0 +1,17 @@
+.container{
+    border:2px solid red;
+    margin: 10px;
+    height: 100px;
+    width:800px;
+  
+
+
+}
+.item-1,.item-2,.item-3,.item-4,.item-5{
+    border: 2px solid green;
+    display:flexbox; 
+   flex-wrap: nowrap ;
+}
+#item1{
+    flex-grow: 2;
+}
