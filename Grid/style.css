@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    display: grid;
+    border: 2px solid red;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: 1fr 2fr 3fr; */
+    /* grid-template-columns: repeat(5,1fr);  */
+      grid-template-columns: 200px 200px 200px;
+    /* justify-content: center; works on x axis */
+    /* justify-content: space-evenly; */
+    /* align-content:center; */
+    /* align-items: center; */
+    row-gap: 10px;
+    column-gap: 20px;
+    .box{
+        border: 2px solid green;
+
+    }
+    #box-1{
+        background-color: aqua;
+        color: red;
+        /* align-self: end;
+        justify-self: center; */
+        /* grid-column: 1/ span (start from colum 1 and acquire colum 2) 3; short hand property for start ,end of colum number */
+        /* grid-area: 2/2/4/4;  all the start value and end value of row and column*/
+        
+
+
+
+    }
+
+
+    
+
+
+    /* grid-template-rows: 60px 80px 100px auto; */
+
+    border:2px solid red;
+    height:100vh;
+    /* width:100vw; */
+}
+.box{
+    border:2px solid green;
+
+}
