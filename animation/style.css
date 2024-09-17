@@ -1,0 +1,47 @@
+.container{
+    border:2px solid red;
+    height:90vh;
+}
+.box{
+    border:2px solid green;
+    height: 100px;
+    width:100px;
+    margin: 100px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+}
+@keyframes slide{
+        0%{
+            top:0px;
+            left:0px;
+            background-color: aquamarine;
+            transform: rotate(0deg);
+
+        }
+        25%{
+            top:0px;
+            left:400px;
+            background-color: chocolate;
+            border-radius: 2rem;
+
+        }
+        50%{
+            top:200px;
+            left:500px;
+            background-color: darkorange;
+        }
+        75%{
+            left:0px;
+            top:200px;
+            background-color: hotpink;
+
+
+        }
+        100%{
+            left:0px;
+            top:400px;
+            background-color: cornflowerblue;
+
+        }
+}
