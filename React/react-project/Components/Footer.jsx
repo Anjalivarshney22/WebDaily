@@ -1,4 +1,6 @@
-<ul className="nav justify-content-end">
+ function Footer(){
+  return (
+  <ul className="nav justify-content-end">
   <li className="nav-item">
     <a className="nav-link active" aria-current="page" href="#">
       Active
@@ -20,3 +22,8 @@
     </a>
   </li>
 </ul>
+);
+}
+
+export default Footer;
+
