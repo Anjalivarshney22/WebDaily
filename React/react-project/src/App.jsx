@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import Navbar from '../Components/Navbar';
 import Footer from  '../Components/Footer';
+import Form from '../Components/Form';
 
 
 function App() {
@@ -42,7 +43,9 @@ function App() {
       </br><br>
       </br><br>
       </br>
+     
 <Footer/>
+<Form/>
     </div>
   );
 }
